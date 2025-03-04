@@ -160,19 +160,3 @@ A step-by-step walkthrough of how a typical game would proceed with the security
 6. The game state resets
 
 These flows demonstrate how the security mechanisms ensure fairness and prevent funds from being locked in various scenarios.
-
-### 4. Additional Improvements
-
-- **Improved State Management**: Better handling of game states and transitions
-- **Enhanced Reset Function**: More comprehensive reset functionality that covers the new commit-reveal state
-- **Clear Error Messages**: More detailed error messages for easier troubleshooting
-
-## Security Principles Demonstrated
-
-1. **Fairness**: The commit-reveal pattern ensures both players have equal opportunities
-2. **Liveness**: The timeout mechanism prevents the game from stalling
-3. **Fund Safety**: The withdrawal system prevents funds from being locked in the contract
-4. **State Integrity**: Improved state management prevents inconsistent game states
-
-These enhancements make RPS_Secure a more robust and secure implementation of the Rock Paper Scissors Lizard Spock game compared to the original RPS contract.
-
